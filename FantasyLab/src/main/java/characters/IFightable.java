@@ -1,5 +1,5 @@
 package characters;
 
 public interface IFightable {
-    void fight(Character character);
+    String fight(Character character);
 }
