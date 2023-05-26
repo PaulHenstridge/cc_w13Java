@@ -1,7 +1,7 @@
 package rooms;
 
 import characters.creatures.Creature;
-
+import characters.Character;
 import java.util.ArrayList;
 
 public class CreatureRoom extends Room{

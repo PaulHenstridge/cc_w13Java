@@ -12,7 +12,7 @@ public class Ogre extends Creature {
     }
 
     @Override
-    public String fight(Character character) {
+    public String fight() {
         return "You could say it's all...ogre for you LOL";
     }
 }

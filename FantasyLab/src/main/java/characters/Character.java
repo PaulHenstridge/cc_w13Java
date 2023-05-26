@@ -42,4 +42,11 @@ public abstract class Character {
     public boolean isGood() {
         return isGood;
     }
+
+    public abstract String fight();
+
+    public String getName() {
+        return name;
+    }
 }
+

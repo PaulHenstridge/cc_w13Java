@@ -12,8 +12,19 @@ public class Knight extends Fighters {
         super(name, health, damage, isGood);
     }
 
-    @Override
-    public String fight(Character character) {
-        return " I have smote you with my mighty weapon";
+    public String fight() {
+        int rando = (int) Math.floor(Math.random() *(3 - 1 + 1) + 1);
+         switch(rando){
+            case 1:
+                return " I have smote you with my mighty weapon";
+            case 2:
+                return " Whataa take that slime bitch!";
+            case 3:
+                return " I keel you!";
+             default:
+                 return "Unknown action";
+        }
+
     }
+
 }

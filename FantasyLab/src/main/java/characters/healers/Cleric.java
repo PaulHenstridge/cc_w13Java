@@ -13,7 +13,7 @@ public class Cleric extends Healers {
     }
 
     @Override
-    public String fight(Character character) {
+    public String fight() {
         return "I have healed you with my funky potion";
     }
 }

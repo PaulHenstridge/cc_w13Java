@@ -1,5 +1,7 @@
 package rooms;
 
+import characters.Character;
+
 import java.lang.reflect.Array;
 
 public abstract class Room {
@@ -12,5 +14,13 @@ public abstract class Room {
         this.isComplete = isComplete;
     }
 
-    public abstract String completeRoom();
+    public String getName() {
+        return name;
+    }
+
+    public boolean isComplete() {
+        return isComplete;
+    }
+
+    public abstract String completeRoom(Character character);
 }

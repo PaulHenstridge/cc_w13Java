@@ -12,7 +12,7 @@ public class Troll extends Creature {
     }
 
     @Override
-    public String fight(Character character) {
+    public String fight() {
         return "FEE FI FO F**K YOU";
     }
 }

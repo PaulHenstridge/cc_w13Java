@@ -15,7 +15,7 @@ public class Warlock extends MagicFolk {
     }
 
     @Override
-    public String fight(Character character) {
+    public String fight() {
         return "Zaap, I magicked your ass.";
 
     }
